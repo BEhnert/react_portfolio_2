@@ -15,7 +15,7 @@ function App() {
         <div>
         <NavBar />  
         <Wrapper>
-          <Route exact path="/*" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={Resume} />
         </Wrapper>
